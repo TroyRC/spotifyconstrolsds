@@ -193,3 +193,106 @@
 .clickable-28SzVr:hover .layout-1qmrhw {
     border-radius           :               10px;
 }
+/* turns jump to present bar into a button */
+[class*="jumpToPresentBar"] {
+    display                 :               contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+    display                 :               none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+    position                :               absolute;
+    z-index                 :               1;
+    bottom                  :               24px;
+    right                   :               22px;
+    padding                 :               8px !important;
+    height                  :               auto;
+    background-color        :             #414141;
+    box-shadow              :               var(--elevation-high);
+    border-radius           :               100px;
+    display                 :               flex;
+    font-size               :               0px;
+    color                   :               transparent;
+    transition              :               font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+    order                   :               -1;
+    margin                  :               0px;
+    height                  :               24px;
+    width                   :               24px;
+    top                     :               auto;
+    margin-right            :               0px;
+    margin-left             :               0px;
+    color                   :             #FFFFFF;
+    transition              :               margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+    padding                 :               8px 18px !important;
+    font-size               :               14px;
+    color                   :             #FFFFFF;
+    transition              :               font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right            :               2px;
+    margin-left             :               -6px;
+}
+/* mentioned messages */
+.mentioned-Tre-dv{
+    transition              :               0.5s ease;
+    background-color        :             #171717;
+}
+.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover{
+    transition              :               0.5s ease;
+    background-color        :             #1d1d1d;
+}
+.mentioned-Tre-dv:hover:before{
+    transition              :               0.5s ease;
+    background-color        :             #575757;
+}
+.mentioned-Tre-dv:before{
+    transition              :               0.5s ease;
+    background-color        :             #383838;
+}
+
+
+
+/* folder coloring */
+.closedFolderIconWrapper-3tRb2d, .folderIconWrapper-1oRIZr{
+    background-color        :             #444444 !important;
+}
+[d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"]{
+    color                   :             rgba(255, 255, 255, 0.63);
+}
+
+
+
+/* reactions */
+.reaction-2A2y9y.reactionMe-3I9gFK{
+    background-color        :             #1d1d1d;
+    border-color            :             #575757;
+}
+.autocomplete-3NRXG8 {
+    background-color        :             #1d1d1d !important;
+}
+.autocomplete-3NRXG8 .selected-3H3-RC{
+    transition              :               0.5s ease;
+    background-color        :             #262626;
+}
+
+/* user setting buttons */
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    background-color        :             #222222;
+}
+.lookFilled-yCfaCM .contents-3ca1mk, .lookInverted-2mDUMi .contents-3ca1mk, .lookLink-15mFoz .contents-3ca1mk, .lookOutlined-3yKVGo .contents-3ca1mk{
+    overflow                :               visible;
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    background-color        :             #333333;
+}
+.userSettingsSecurity-2kODPN .isEnabled-20V6lG{
+    color                   :             #2a7742;
+}
+.messagesWrapper-RpOMA3 ::-webkit-scrollbar{
+    display                 :               none;
+}
+
