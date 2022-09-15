@@ -82,3 +82,7 @@
     transition: .5s ease;
     border-radius: 0px;
 }
+/* removes some stupid gradient bugs */
+.form-3gdLxP::before, .children-3xh0VB:after, .option-ayUoaq:after{
+    content                 :               none;
+}
