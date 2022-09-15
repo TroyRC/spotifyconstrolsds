@@ -62,3 +62,23 @@
     top: 1px;
     visibility: hidden;
   }
+/* changes the live tag in vc into a background gradient */
+.voiceUser-3nRK-K .live-1V2D-f {
+    font-size: 0;
+    background: linear-gradient(to right, transparent, var(--background-secondary));
+    border-radius: 5px;
+    margin-right: 237px;
+    width: 70%;
+    margin-top: 2px;
+    z-index: -99;
+    height: 99%;
+    transition: .5s ease;
+    position: absolute;
+}
+.voiceUser-3nRK-K:hover .live-1V2D-f, .voiceUser-3nRK-K .content-1Tgc42:hover{
+    border-radius: 25px;
+}
+.voiceUser-3nRK-K .content-1Tgc42{
+    transition: .5s ease;
+    border-radius: 0px;
+}
