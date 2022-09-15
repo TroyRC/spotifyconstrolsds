@@ -150,3 +150,46 @@
     top                     :               230%;
     margin-left             :               15px
 }
+/* custom textbox */
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL),
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL), .input-3r5zZY, .input-2g-os5  {
+    background-color        :             #303030 !important;
+    transition              :               background-color 0.2s ease, border-color 0.2s ease !important;
+    border                  :               1px solid transparent !important;
+    outline                 :               none !important;
+}
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):hover,
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):hover, .input-3r5zZY:hover, .input-2g-os5  {
+    border-color            :             #5a5a5a !important;
+    background-color        :             rgb(32, 32, 32) !important;
+}
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):focus-within,
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):focus-within, .input-3r5zZY:focus-within, .input-2g-os5  {
+    background-color        :             #444444c2 !important;
+    border-color            :               var(--color-brand-lighter) !important;
+}
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL) {
+    border                  :               1px solid transparent;
+    border-radius           :               25px;
+}
+.input-3r5zZY{
+    border-radius           :               15px;
+    margin-bottom           :               15px;
+}
+[class="colorMuted-20987_ size12-oc4dx4 cta-25g9OT"], .container-2rCwVJ .clear-1JYfB5{
+    display                 :               none;
+}
+.searchBoxInput-P0mWHW{
+    color                   :             white !important;
+}
+/* member list hover effect */
+.item-3XjbnG, .option-ayUoaq {
+    transition              :               0.3s ease !important;
+}
+.clickable-28SzVr .layout-1qmrhw{
+    border-radius           :               25px;
+    transition              :               0.4s ease !important;
+}
+.clickable-28SzVr:hover .layout-1qmrhw {
+    border-radius           :               10px;
+}
