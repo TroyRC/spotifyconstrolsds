@@ -952,3 +952,213 @@
     font-weight:                            500 !important;
 }
 
+/* toolbar selected/hover icon glow */
+.title-31SJ6t .iconWrapper-2awDjA:hover{
+    transition              :               0.2s ease;
+    filter                  :               drop-shadow(0 0 5px #999) !important;
+}
+.title-31SJ6t .iconWrapper-2awDjA{
+    transition              :               0.2s ease;
+}
+.title-31SJ6t .selected-29KTGM{
+    transition              :               0.2s ease;
+    filter                  :               drop-shadow(0 0 5px #999) !important;
+}
+
+
+/* boost tab restyle */
+.layerContainer-2v_Sit .perksModal-CLcR1c{
+    background-color        :             #121212;
+}
+.layerContainer-2v_Sit .perksModal-CLcR1c .ctaBar-Nhk8yY{
+    background-color        :             #202020;
+}
+#app-mount .layerContainer-2v_Sit .perksModal-CLcR1c .ctaBar-Nhk8yY .actions-b9dB88 .shinyButton-2Q9MDB {
+    background-color        :             rgba(85, 85, 85, 0.288);
+}
+#app-mount .layerContainer-2v_Sit .perksModal-CLcR1c .ctaBar-Nhk8yY .actions-b9dB88 .shinyButton-2Q9MDB:hover {
+    background-color        :             rgba(85, 85, 85, 0.438);
+}
+.layerContainer-2v_Sit .perksModal-CLcR1c .wrapper-3Zq_cJ .action-MXk_HA .button-f2h6uQ{
+    display                 :               none;
+}
+
+.layerContainer-2v_Sit .root-2zfUH6 .closeContent-1uXQiy .container-O54IuJ{
+    margin-right            :               -61%;
+    margin-top              :               20px;
+}
+
+
+
+/* when youre offline, it shows a less cruel and scary message. */
+
+.tipTitle-3FYEQp {
+	content: "";
+	font-size               :               0px;
+}
+.tipTitle-3FYEQp::before {
+	content                 :               "Hey...";
+	font-size: 12px;
+}
+.tip-1AwED_ {
+	content                 :               "";
+	font-size               :               0px;
+}
+.tip-1AwED_::before {
+	content                 :               "¿Por qué te escondes?";
+	font-size               :               16px;
+}
+.problems-CvGwpb.slideIn-VAD-dp {
+	display                 :               none;
+}
+.container-2RRFHK.fixClipping-3GOd_d {
+	background              :             rgba(0, 0, 0, 0.1);
+	backdrop-filter         :               blur(5px);
+}
+body #app-mount .tooltip-14MtrL{
+    filter                  :               drop-shadow(0 0 2px rgba(153, 153, 153, 0.705));
+}
+
+/* tooltip fade in animation */
+
+.layerContainer-2v_Sit .tooltip-14MtrL.tooltipRight-2TSb42 {
+    animation: fadeFromRight 140ms;
+}
+
+.layerContainer-2v_Sit .tooltip-14MtrL.tooltipBottom-2WzfVx {
+    animation: fadeFromBottom 140ms;
+}
+
+.layerContainer-2v_Sit .tooltip-14MtrL[class*="tooltipLeft-"] {
+    animation: fadeFromLeft 140ms;
+}
+
+.layerContainer-2v_Sit .tooltip-14MtrL.tooltipTop-1wv5UJ{
+    animation: fadeFromTop 140ms;
+}
+@keyframes fadeFromTop {
+    0% {opacity: 0;transform: translateY(-50%);}
+    100% {opacity: 1;transform: none;}
+}
+
+@keyframes fadeFromRight {
+    0% {opacity: 0;transform: translateX(50%);}
+    100% {opacity: 1;transform: none;}
+}
+
+@keyframes fadeFromBottom {
+    0% {opacity: 0;transform: translateY(50%);}
+    100% {opacity: 1;transform: none;}
+}
+
+@keyframes fadeFromLeft {
+    0% {opacity: 0;transform: translateX(-50%);}
+    100% {opacity: 1;transform: none;}
+}
+
+
+/* channel highlights experimnt */
+.newMessagesPillContainer-1EFmTu :is(.newMessagesPill-2YdO-e, .newMessagesClear-2LQVHt){
+    background-color: #222222;
+    box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.47);
+    transition: 0.5s ease;
+    text-shadow: 0 0 15px currentColor;
+}
+.newMessagesPillContainer-1EFmTu :is(.newMessagesPill-2YdO-e, .newMessagesClear-2LQVHt):hover{
+    background-color: #282828;
+    box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.678);
+}
+
+
+/* bug fixes */
+.container-YkUktl .withTagAsButton-OsgQ9L, .container-YkUktl .withTagless-10ooWt{
+  background:transparent;
+}
+.guilds-2JjMmN .scrollerBase-_bVAAt {
+  max-height: calc(100% - 25px) !important;
+}
+
+
+/* restyles the new devices tab */
+#sessions-tab :where(.sessions-2KZ0-Q>.otherSessions-3BQszU .session-9khLqt,.session-9khLqt){
+    flex-direction: column;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 15px;
+}
+#sessions-tab .currentSession-1g_u10{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#sessions-tab .otherSessions-3BQszU .children-1xdcWE>.session-9khLqt{
+    margin-bottom: 20px;
+    position: relative;
+}
+#sessions-tab .children-1xdcWE>.sessions-2KZ0-Q>div:not([class]){
+    display: flex;
+    flex-direction: column;
+}
+#sessions-tab .children-1xdcWE .sectionTitle-3j2YI1{
+    margin: 0 auto 0 auto;
+}
+#sessions-tab .children-1xdcWE .sectionTitle-3j2YI1>h5{
+    margin-right: 20px;
+}
+#sessions-tab .otherSessions-3BQszU .sectionTitle-3j2YI1{
+    margin-bottom: 10px;
+}
+#sessions-tab :where(.sessions-2KZ0-Q>.otherSessions-3BQszU .sessionInfo-HxfESS>.sessionInfoRow-pEX9fY,.session-9khLqt>.sessionInfo-HxfESS>.sessionInfoRow-pEX9fY){
+    justify-content: center;
+}
+#sessions-tab .sessions-2KZ0-Q>.otherSessions-3BQszU .sessionMoreButton-2cApSx path{
+    display: none;
+}
+#sessions-tab .sessions-2KZ0-Q>.otherSessions-3BQszU .sessionMoreButton-2cApSx{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: -15px 0 0 0;
+    border-radius: 15px;
+    transition: .2s ease;
+    display: flex;
+}
+#sessions-tab .sessions-2KZ0-Q>.otherSessions-3BQszU .sessionMoreButton-2cApSx:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+}
+#sessions-tab .sessions-2KZ0-Q>.otherSessions-3BQszU .session-9khLqt>*:not(:last-child),#sessions-tab .currentSession-1g_u10>*{
+    margin-right: 20px;
+}
+#sessions-tab .sessions-2KZ0-Q>.otherSessions-3BQszU .sessionMoreButton-2cApSx:hover::before{
+    content: 'log out';
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: auto auto auto auto;
+}
+  
+  
+/* theme developer username */
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us::before,
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us::before{
+  content: '【 𝙏𝙝𝙚𝙢𝙚 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 】';
+  padding-right: 5px;
+  color: currentColor;
+  display: inline-block;
+  filter: drop-shadow(0 0 5px currentColor);
+  font-size: 1rem;
+  transition: .3s ease;
+}
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us,
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us{
+  font-size: 0px;
+}
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us::after,
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us::after{
+  content: none;
+}
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us:hover::before,
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us:hover::before{
+  color: #999999;
+}
+
+
